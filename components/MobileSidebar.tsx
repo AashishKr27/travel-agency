@@ -10,7 +10,7 @@ const MobileSidebar = () => {
   };
   return (
     <div className="mobile-sidebar wrapper">
-      <header className="">
+      <header >
         <Link to={"/"}>
           <img
             src={"/assets/icons/logo.svg"}
@@ -19,7 +19,7 @@ const MobileSidebar = () => {
           />
           <h1>Tourvisto</h1>
         </Link>
-        <button onClick={toggleSidebar} className="">
+        <button onClick={toggleSidebar} >
           <img src={"/assets/icons/menu.svg"} alt={"Menu"} className="size-7" />
         </button>
       </header>

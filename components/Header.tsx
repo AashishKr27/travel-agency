@@ -10,7 +10,7 @@ const Header = ({ title, description }: Props) => {
   const location = useLocation();
   return (
     <header className="header">
-      <article className="">
+      <article>
         <h1
           className={cn(
             "text-dark-100",

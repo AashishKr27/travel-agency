@@ -47,7 +47,6 @@ const NavItems = ({ handleClick }: { handleClick?: () => void }) => {
           <img
             src={user?.imageUrl || "/assets/images/david.webp"}
             alt={user?.name || "Ashish"}
-            className=""
           />
           <article>
             <h2>{user?.name}</h2>
